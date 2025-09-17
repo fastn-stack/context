@@ -1,6 +1,6 @@
 [package]
 name = "fastn-context"
-version = "0.1.2"
+version = "0.1.3"
 edition.workspace = true
 authors.workspace = true
 description = "Type-safe async context propagation for Rust applications"
@@ -15,7 +15,7 @@ readme = "../README.md"
 [dependencies]
 tokio.workspace = true
 tokio-util.workspace = true
-fastn-context-macros = { path = "../fastn-context-macros", version = "0.1.2" }
+fastn-context-macros = { path = "../fastn-context-macros", version = "0.1.3" }
 
 [dev-dependencies]
 tokio-test = "0.4"
