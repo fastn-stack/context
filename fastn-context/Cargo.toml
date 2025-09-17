@@ -1,0 +1,20 @@
+[package]
+name = "fastn-context"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+description = "Type-safe async context propagation for Rust applications"
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+rust-version.workspace = true
+keywords = ["async", "context", "tokio", "runtime", "tracing"]
+categories = ["asynchronous", "development-tools"]
+
+[dependencies]
+tokio.workspace = true
+tokio-util.workspace = true
+fastn-context-macros = { path = "../fastn-context-macros", version = "0.1.0" }
+
+[dev-dependencies]
+tokio-test = "0.4"

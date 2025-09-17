@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "fastn-context",
+    "fastn-context-macros",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["Amit Upadhyay <upadhyay@gmail.com>"]
+edition = "2021"
+description = "Type-safe async context propagation for Rust applications"
+license = "UPL-1.0"
+repository = "https://github.com/fastn-stack/context"
+homepage = "https://github.com/fastn-stack/context"
+rust-version = "1.75"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tokio-util = "0.7"
