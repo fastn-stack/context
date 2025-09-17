@@ -18,4 +18,4 @@ tokio-util.workspace = true
 fastn-context-macros = { path = "../fastn-context-macros", version = "0.1.3" }
 
 [dev-dependencies]
-tokio-test = "0.4"
+tokio-test.workspace = true
